@@ -1,4 +1,4 @@
-export const PostOwner = ({ name, img, id, post, like }) => {
+export const PostOwner = ({ key, name, img, id, post, like }) => {
   return (
     <div>
       <div className="vstack gap-3">

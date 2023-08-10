@@ -1,4 +1,4 @@
-export const Reply = ({ userImagePath, username, replyText, likeNum }) => {
+export const Reply = ({ key, userImagePath, username, replyText, likeNum }) => {
   if (likeNum == 0) {
     return (
       <div>
