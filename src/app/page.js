@@ -31,6 +31,7 @@ export default function HomePage() {
             commentText={comments.commentText}
             likeNum={comments.likeNum}
             replies={comments.replies}
+            key={comments.key}
           />
         ))}
 
