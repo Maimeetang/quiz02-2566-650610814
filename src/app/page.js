@@ -16,7 +16,6 @@ export default function HomePage() {
       >
         {/* Post Owner Example*/}
         <PostOwner
-          key
           img="/profileImages/Bank.jpeg"
           name="Sirawit Kongkham"
           id="650610814"
